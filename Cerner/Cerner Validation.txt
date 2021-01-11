@@ -1,0 +1,48 @@
+our app must meet certain requirements in order to be validated.
+	 The validation process has five main categories:
+	 security, 
+	 functionality, 
+	 technical conformance,
+ 	 user experience and
+	 operations. 
+ They take these steps to ensure that the app and the vendors are in compliance
+ with the standards their clients expect and deserve.
+ 
+	-https://code.cerner.com/submit
+ 	-have a demo against their FHIR platform.
+	Security:
+		-Static Analysis
+			producing a report from tools such as HP Fortify, IBM AppScan,Veracode 
+			OpenVAS, BurpSuite, FindSecBugs and ZAP are preferred.
+
+		-TLS/SSL Configuration
+
+		-Data Flow Diagram
+
+		-Threat Model
+			The threat model should make use of a tool like Microsoft Threat Model 2016 or similar.
+
+		-Third-Party Tools and Libraries
+			The use of a tool like OWASP’s Dependency Check greatly reduces the exposure to malicious
+			dependencies prior to deploying your app.
+
+		-Patching Policy
+
+
+	-SAAS Model(recommendad)
+	-Usage of Resource(Scope)
+	-Responsive UI
+	-Must Support IE10(Browser)
+	-No PopUp(in EHR Workflow)
+
+
+How much does it cost to submit an app?(Cerner Page)
+	There is no cost associated with submitting an app. 
+Cerner does charge an annual program fee for the validation of the app. 
+In addition, a portion of the validation cost is retained within Cerner for cost of business.
+
+
+	(Devoloper Conversation)There is a cost of being in the developer program and there is also typically a revenue 
+share agreement that you would negotiate with our business team. 
+These arrangements have some flexibility, so you will learn more once you engage with our business development group.
+

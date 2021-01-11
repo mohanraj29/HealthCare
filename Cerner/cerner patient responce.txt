@@ -1,0 +1,352 @@
+{
+    "resourceType": "Patient",
+    "id": "12742397",
+    "meta": {
+        "versionId": "5",
+        "lastUpdated": "2020-08-21T15:51:38.000Z"
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Patient</b></p><p><b>Name</b>: SMART, BABY BOY</p><p><b>Status</b>: Active</p><p><b>DOB</b>: Mar  2, 2020</p><p><b>Administrative Gender</b>: Male</p><p><b>Marital Status</b>: Single</p></div>"
+    },
+    "extension": [
+        {
+            "extension": [
+                {
+                    "valueCoding": {
+                        "system": "urn:oid:2.16.840.1.113883.6.238",
+                        "code": "2106-3",
+                        "display": "White",
+                        "userSelected": false
+                    },
+                    "url": "ombCategory"
+                },
+                {
+                    "valueString": "White",
+                    "url": "text"
+                }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+        },
+        {
+            "extension": [
+                {
+                    "valueCoding": {
+                        "system": "urn:oid:2.16.840.1.113883.6.238",
+                        "code": "2186-5",
+                        "display": "Not Hispanic or Latino",
+                        "userSelected": false
+                    },
+                    "url": "ombCategory"
+                },
+                {
+                    "valueString": "Not Hispanic, Latino, or Spanish Origin",
+                    "url": "text"
+                }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+        }
+    ],
+    "identifier": [
+        {
+            "id": "CI-490052360-0",
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                        "code": "10",
+                        "display": "MRN",
+                        "userSelected": true
+                    },
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "MR",
+                        "display": "Medical record number",
+                        "userSelected": false
+                    }
+                ],
+                "text": "MRN"
+            },
+            "system": "urn:oid:2.16.840.1.113883.6.1000",
+            "value": "6946",
+            "period": {
+                "start": "2020-03-04T18:58:24.000Z"
+            }
+        },
+        {
+            "id": "CI-490068259-2",
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                        "code": "22",
+                        "display": "Military Id",
+                        "userSelected": true
+                    }
+                ],
+                "text": "Military Id"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.42.10001.100001.12",
+            "value": "10050007022"
+        },
+        {
+            "id": "CI-490060091-3",
+            "use": "usual",
+            "type": {
+                "coding": [
+                    {
+                        "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                        "code": "670843",
+                        "display": "Messaging",
+                        "userSelected": true
+                    },
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "U",
+                        "display": "Unspecified identifier",
+                        "userSelected": false
+                    }
+                ],
+                "text": "Messaging"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.13.8",
+            "value": "A018E18315544A4DB402B55DE1AB7154",
+            "period": {
+                "start": "2020-07-09T14:16:53.000Z"
+            }
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "id": "CI-12742397-0",
+            "use": "official",
+            "text": "SMART, BABY BOY",
+            "family": "SMART",
+            "given": [
+                "BABY BOY"
+            ],
+            "period": {
+                "start": "2020-03-04T18:58:24.000Z"
+            }
+        }
+    ],
+    "telecom": [
+        {
+            "id": "CI-EM-29822922-0",
+            "system": "email",
+            "value": "babyboysmart@yopmail.com",
+            "use": "home",
+            "rank": 1,
+            "period": {
+                "start": "2020-07-09T14:15:16.000Z"
+            }
+        }
+    ],
+    "gender": "male",
+    "birthDate": "2020-03-02",
+    "address": [
+        {
+            "id": "CI-24326083-0",
+            "use": "home",
+            "text": "123 MAIN\nKANSAS CITY, MO 64116\nUS",
+            "line": [
+                "123 MAIN"
+            ],
+            "city": "KANSAS CITY",
+            "state": "MO",
+            "postalCode": "64116",
+            "country": "US",
+            "period": {
+                "start": "2020-03-04T18:53:59.000Z"
+            }
+        }
+    ],
+    "maritalStatus": {
+        "coding": [
+            {
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/38",
+                "code": "309239",
+                "display": "Single",
+                "userSelected": true
+            },
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "U",
+                "display": "unmarried",
+                "userSelected": false
+            }
+        ],
+        "text": "Single"
+    },
+    "contact": [
+        {
+            "relationship": [
+                {
+                    "coding": [
+                        {
+                            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/351",
+                            "code": "2553243305",
+                            "display": "Authorized Representative",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Authorized Representative"
+                }
+            ],
+            "name": {
+                "id": "CI-12724066-0",
+                "use": "official",
+                "text": "SMART, NANCY",
+                "family": "SMART",
+                "given": [
+                    "NANCY"
+                ],
+                "period": {
+                    "start": "2019-12-26T15:12:34.000Z"
+                }
+            },
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "9876543210",
+                    "use": "home",
+                    "rank": 1,
+                    "period": {
+                        "start": "2019-12-26T15:12:34.000Z"
+                    }
+                },
+                {
+                    "system": "email",
+                    "value": "nancysmart@yopmail.com",
+                    "use": "home",
+                    "rank": 1,
+                    "period": {
+                        "start": "2020-06-30T19:47:10.000Z"
+                    }
+                }
+            ],
+            "address": {
+                "use": "home",
+                "text": "12345 MAIN ST\nKANSAS CITY, MO 64151-0001\nUS",
+                "line": [
+                    "12345 MAIN ST"
+                ],
+                "city": "KANSAS CITY",
+                "district": "Jackson",
+                "state": "MO",
+                "postalCode": "64151-0001",
+                "country": "US",
+                "period": {
+                    "start": "2020-12-08T15:05:44.000Z"
+                }
+            },
+            "gender": "female",
+            "period": {
+                "start": "2020-07-09T14:15:16.000Z"
+            }
+        },
+        {
+            "relationship": [
+                {
+                    "coding": [
+                        {
+                            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/351",
+                            "code": "1153",
+                            "display": "Family Member",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Family Member"
+                }
+            ],
+            "name": {
+                "id": "CI-12724066-0",
+                "use": "official",
+                "text": "SMART, NANCY",
+                "family": "SMART",
+                "given": [
+                    "NANCY"
+                ],
+                "period": {
+                    "start": "2019-12-26T15:12:34.000Z"
+                }
+            },
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "9876543210",
+                    "use": "home",
+                    "rank": 1,
+                    "period": {
+                        "start": "2019-12-26T15:12:34.000Z"
+                    }
+                },
+                {
+                    "system": "email",
+                    "value": "nancysmart@yopmail.com",
+                    "use": "home",
+                    "rank": 1,
+                    "period": {
+                        "start": "2020-06-30T19:47:10.000Z"
+                    }
+                }
+            ],
+            "address": {
+                "use": "home",
+                "text": "12345 MAIN ST\nKANSAS CITY, MO 64151-0001\nUS",
+                "line": [
+                    "12345 MAIN ST"
+                ],
+                "city": "KANSAS CITY",
+                "district": "Jackson",
+                "state": "MO",
+                "postalCode": "64151-0001",
+                "country": "US",
+                "period": {
+                    "start": "2020-12-08T15:05:44.000Z"
+                }
+            },
+            "gender": "female",
+            "period": {
+                "start": "2020-03-04T18:58:24.000Z"
+            }
+        }
+    ],
+    "communication": [
+        {
+            "language": {
+                "coding": [
+                    {
+                        "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/36",
+                        "code": "151",
+                        "display": "English",
+                        "userSelected": true
+                    },
+                    {
+                        "system": "urn:ietf:bcp:47",
+                        "code": "en",
+                        "display": "English",
+                        "userSelected": false
+                    }
+                ],
+                "text": "English"
+            },
+            "preferred": true
+        }
+    ],
+    "generalPractitioner": [
+        {
+            "id": "CI-490128057-0",
+            "reference": "Practitioner/12744688",
+            "display": "PWDentrix, Dentalprofessional"
+        },
+        {
+            "id": "CI-490052374-1",
+            "reference": "Practitioner/4122630",
+            "display": "Cerner Test, Physician - Women's Health Cerner"
+        }
+    ]
+}
